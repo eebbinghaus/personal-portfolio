@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Megrim", cursive;
+}
+
+/* Header */
+
+h2 {
+  color: #eff6e0;
+  font-size: 30px;
+  padding: 12px;
+  text-shadow: 3px 3px 3px #598392;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+  background-color: #598392;
+  color: #01161e;
+  border-bottom: 5px solid #aec3b0;
+}
+
+#nav-title {
+  margin-right: auto;
+  font-family: "Suez One", serif;
+  font-size: 60px;
+  text-shadow: 2px 2px 3px #aec3b0;
+  text-decoration: underline;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 30px;
+}
+
+header a {
+  text-decoration: none;
+  color: #aec3b0;
+  text-shadow: 3px 3px 3px #124559;
+  transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+  color: #b2dfdb;
+}
+
+body {
+  background-color: #01161e;
+}
+p {
+  color: #eff6e0;
+  background: transparent;
+  padding: 30px;
+  margin: 30px;
+  border: 5px solid #598392;
+}
+section img {
+  display: block;
+}
+.products {
+  flex: 4;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 300px;
+  margin: 30px;
+  border: 5px solid #598392;
+}
+
+.card header {
+  padding: 20px;
+  font-family: "Suez One", serif;
+  font-size: 18px;
+  color: #aec3b0;
+  text-shadow: 3px 3px 3px #01161e;
+  justify-content: center;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  color: #aec3b0;
+  text-align: center;
+  padding: 10px;
+}
