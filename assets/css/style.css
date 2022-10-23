@@ -6,11 +6,16 @@
 }
 
 /* Header */
-
+main {
+  height: 100%;
+  background: linear-gradient(90deg, #aec3b0 15%, #01161e 0);
+  /* display: flex; */
+}
 h2 {
-  color: #eff6e0;
-  font-size: 30px;
-  padding: 12px;
+  color: #01161e;
+  font-size: 35px;
+  padding: 20px;
+  margin: 20px 10px;
   text-shadow: 3px 3px 3px #598392;
 }
 header {
@@ -39,6 +44,7 @@ header li {
 }
 
 header a {
+  font-size: 20px;
   text-decoration: none;
   color: #aec3b0;
   text-shadow: 3px 3px 3px #124559;
@@ -56,11 +62,35 @@ p {
   color: #eff6e0;
   background: transparent;
   padding: 30px;
-  margin: 30px;
+  margin: 10px 10px 50px 30px;
   border: 5px solid #598392;
+  max-width: 700px;
+}
+.first {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  margin: 10px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  margin: 10px;
+}
+.about-me section {
+  display: flex;
+  justify-content: center;
+}
+section div {
+  display: flex;
+  justify-content: flex-end;
 }
 section img {
-  display: block;
+  display: inline-block;
 }
 .products {
   flex: 4;
@@ -68,6 +98,7 @@ section img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100vw;
 }
 
 .card {
@@ -75,12 +106,14 @@ section img {
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
-  flex: 0 0 300px;
+  flex: 0 0 200px;
   margin: 30px;
   border: 5px solid #598392;
+  max-height: 300px;
 }
 
-.card header {
+.card header,
+.most-important header {
   padding: 20px;
   font-family: "Suez One", serif;
   font-size: 18px;
@@ -89,17 +122,39 @@ section img {
   justify-content: center;
 }
 
-.card p {
+.card p,
+.most-important p {
   text-align: center;
 }
 
-.card img {
+.card img,
+.most-important img {
   width: 100%;
   height: auto;
 }
 
+.most-important {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 300px;
+  margin: 30px 30px 30px 200px;
+  border: 5px solid #598392;
+}
+.family-img {
+  object-fit: cover;
+  max-width: 200px;
+  max-height: auto;
+  border: 5px solid #598392;
+}
+
 footer {
   color: #aec3b0;
+  background-color: #598392;
   text-align: center;
   padding: 10px;
+}
+i {
+  color: #aec3b0;
 }
