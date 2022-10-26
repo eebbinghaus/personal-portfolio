@@ -41,8 +41,9 @@ header a,
   transition: all 0.3s ease 0s;
 }
 
+/* Creates color change on text when hover (nav and contacts) */
 header a:hover,
-.contact:hover {
+.contact a:hover {
   color: #b2dfdb;
 }
 
@@ -72,6 +73,7 @@ nav ul {
 
 /* Main */
 
+/* Creates tan sidebar */
 main {
   height: 100%;
   background: linear-gradient(90deg, #aec3b0 15%, #01161e 0);
@@ -86,8 +88,9 @@ h2 {
 }
 
 p {
-  color: #eff6e0;
-  background: transparent;
+  font-family: "Mukta", sans-serif;
+  color: #aec3b0;
+  background-color: #01161e;
   padding: 30px;
   margin: 20px;
   border: 5px solid #598392;
@@ -138,6 +141,7 @@ section div {
   flex: 0 0 200px;
   margin: 20px;
   border: 5px solid #598392;
+  background-color: #01161e;
   max-height: 382.91px;
 }
 
@@ -149,8 +153,10 @@ section div {
   padding: 10px;
   flex: 0 0 300px;
   border: 5px solid #598392;
+  background-color: #01161e;
 }
 
+/* Project Title styling */
 .card header,
 .most-important header {
   padding: 20px;
@@ -249,6 +255,11 @@ footer {
 
   .contact a {
     font-size: 16px;
+  }
+
+  .card img {
+    border-bottom: 60px solid #aec3b0;
+    border-top: 25px solid #aec3b0;
   }
 }
 
